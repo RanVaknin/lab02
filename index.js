@@ -68,9 +68,9 @@ var fifthQuestion = ['There are 262 bones in the human body.','The correct answe
 
 function setUpQuestion(question,yesRsponse,noResponse){
   let userResponse = prompt(question);
-  if (userResponse.toLowerCase() === 'yes'){
+  if (userResponse.toLowerCase() === 'yes' || userResponse.toLowerCase() === 'y'){
     alert(yesRsponse);
-  } else if(userResponse.toLowerCase() === 'no'){
+  } else if(userResponse.toLowerCase() === 'no' || userResponse.toLowerCase() === 'n'){
     alert(noResponse);
   } else {
     alert('invalid entry');
