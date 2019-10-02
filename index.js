@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
-/*'use strict';
-
+'use strict';
+/*
 let userName = prompt('What is your name stranger?');
 alert('Hi there! ' + userName + ' Welcome to my AboutMe page. I\'m happy to have you here.');
 
